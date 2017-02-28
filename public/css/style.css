@@ -78,10 +78,11 @@ button{
     padding: 12px 40px;
     font-size: 15px;
     background-color: #2f905a;
-    color: beige;
+    color: #54ff9f;
     border: none;
     font-weight: 700;
     text-transform: uppercase;
+    border-radius: 4px;
 }
 button:hover{
   cursor: pointer;
