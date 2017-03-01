@@ -13,8 +13,8 @@ var WakatiFactory = function () {
     };
     var _startTimer = function (){
         var currentTime = new Date();
-        // self.endTime = new Date(new Date(currentTime.getTime()).setMinutes(currentTime.getMinutes() + 1));
-        self.endTime = new Date(new Date(currentTime.getTime()).setSeconds(currentTime.getSeconds() + 5));
+        self.endTime = new Date(new Date(currentTime.getTime()).setMinutes(currentTime.getMinutes() + 45));
+        // self.endTime = new Date(new Date(currentTime.getTime()).setSeconds(currentTime.getSeconds() + 5));
         
         var time = currentTime.getTime();
         _countDown(time);
